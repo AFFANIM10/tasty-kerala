@@ -1,0 +1,64 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('kerala.jpg'); /* Read step 1 below to fix this line */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1.title {
+    color: palegreen; /* This will make your "KERALA" text white so you can see it */
+    text-align: left;
+    font-family: sans-serif;
+    padding-top: 160px;
+    
+    font-size: 175px;
+}
+
+div.type {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+}
+.fish{
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+}
+.non{
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+
+.veg{
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+}
+.f{
+    font-size: 50px;
+    text-align: center;
+    color: #FFFDD0;
+}
+.v{
+    font-size: 50px;
+    text-align: center;
+    color: #FFFDD0;
+}
+.n{
+    font-size: 50px;
+    text-align: center;
+    color: #FFFDD0;
+}
+figure{
+    gap: 10px;
+}
+.fish:hover, .non:hover, .veg:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
+}
